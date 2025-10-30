@@ -23,7 +23,7 @@ def f3(arg):
 
 @print_result
 def f4(arg):
-    salaries = gen_random(len(arg), 100000, 2000000)  # Generate salaries for each employee individually
+    salaries = gen_random(len(arg), 100000, 2000000)
     return ['{} зарплата {}'.format(job, salary) for job, salary in zip(arg, salaries)]
 
 if __name__ == '__main__':

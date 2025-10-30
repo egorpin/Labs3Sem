@@ -1,6 +1,5 @@
 # test_abstract_factory.py
 import pytest
-from unittest.mock import Mock, patch, MagicMock
 from abstract_factory import (
     Car,
     Wolkswagen,
